@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+body {  
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;  
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.counter {
+    display: flex;
+    flex: 0.7;
+    align-items: center;  
+    font-size: 40px;
+}
+
+.controls {
+    display: flex;
+    width: 100%;
+    flex: 0.3;
+    flex-direction: row;
+}
+
+.control-button {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;  
+}
+
+.plus {
+  background: #27a31d;
+}
+
+.reset {
+  background: #b6ff2c;
+}
+
+.minus {
+  background: #ff2c2c;
+}
+
+
+
+
+
+
+
